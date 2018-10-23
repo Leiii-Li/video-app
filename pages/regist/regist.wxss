@@ -1,0 +1,40 @@
+/* pages/regist/regist.wxss */
+
+.regist-container {
+  align-items: center;
+}
+.regist-header-img {
+  width: 100%;
+}
+
+.regist-img {
+  width: 50rpx;
+  height: 50rpx;
+  margin-block-start: 60rpx;
+}
+
+.input-view {
+  display: flex;
+  padding: 20rpx;
+  flex-direction: row;
+  height: 60rpx;
+}
+
+.input-title {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.btn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.line-view {
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 2rpx;
+  background-color: #888;
+}

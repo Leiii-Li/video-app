@@ -1,0 +1,12 @@
+<view>
+    <view class='face-image-contianer'>
+        <image class='face-image' bindtap='changeFaceImage' src='../resource/images/noneface.png' ></image>
+        <button size='mini' bindtap='uploadVideo' class="upload-btn">{{upload}}</button>
+        <button size='mini' bindtap='logout' class="upload-btn">{{logout}}</button>
+    </view>
+    <view class='category-contianer'>
+        <label class='category-item' bindtap='showFans'>{{fans}}</label>
+        <label class='category-item' bindtap='showFollow' >{{follow}}</label>
+        <label class='category-item' bindtap='showPick'>{{pick}}</label>
+    </view>
+</view>

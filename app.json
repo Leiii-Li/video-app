@@ -1,0 +1,15 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/owner/owner",
+        "pages/index/index",
+        "pages/regist/regist"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "鼠王短视频",
+        "navigationBarTextStyle": "black"
+    },
+    "debug": true
+}

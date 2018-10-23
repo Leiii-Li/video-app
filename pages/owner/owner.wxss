@@ -1,0 +1,30 @@
+/* pages/owner/owner.wxss */
+
+.face-image {
+    margin-top: 20rpx;
+    width: 200rpx;
+    height: 200rpx;
+}
+
+.face-image-contianer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-btn {
+    margin-top: 12rpx;
+}
+
+.category-contianer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-item {
+    margin: 22rpx;
+    font-size: 14px;
+}

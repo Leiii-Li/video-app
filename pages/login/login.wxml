@@ -1,0 +1,28 @@
+<!--pages/regist/regist.wxml-->
+<view class='regist-container'>
+  <view>
+    <image class='regist-header-img' src='../resource/images/dsp.jpg'></image>
+  </view>
+  <view>
+    <form bindsubmit='doLogin'>
+      <!-- 账号 -->
+      <view class='input-view'>
+        <image class='regist-img' src='../resource/images/username.png'></image>
+        <label class='input-title'>{{username}}</label>
+        <input name='username' placeholder='{{username_hint}}' />
+      </view>
+      <view class='line-view'></view>
+      <!-- 密码 -->
+      <view class='input-view'>
+        <image class='regist-img' src='../resource/images/password.png'></image>
+        <label class='input-title'>{{password}}</label>
+        <input name='password' type='password' placeholder='{{password_hint}}' />
+      </view>
+      <view class='line-view'></view>
+      <view>
+        <button type='primary' class='btn' form-type='submit'>{{confirm}}</button>
+        <button type='warn' class='btn' bindtap='toRegister' form-type='reset'>{{cancel}}</button>
+      </view>
+    </form>
+  </view>
+</view>
